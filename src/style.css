@@ -1,0 +1,551 @@
+.scene {
+    z-index: 1;
+    width: 1000px;
+    height: 1000px;
+    content: url(./scene/owo1.png);
+    animation-name: scene;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: -100px
+}
+
+.playerIdle{
+    height: 230px;
+    content: url(./sprite/player.png);
+    transform: scaleX(-1);
+    position: absolute;
+    animation-name: idle;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    left: 650px;
+    top: 400px;
+}
+
+
+.playerRegar{
+    height: 230px;
+    content: url(./sprite/regar/regar1.png);
+    transform: scaleX(-1);
+    position: absolute;
+    animation-name: regar;
+    animation-duration: 0.25s;
+    animation-iteration-count: infinite;
+    left: 600px;
+    top: 400px;
+}
+
+@keyframes regar{
+    0%{
+        content: url(./sprite/Eliminar/eliminar3.png);
+    }
+    10%{
+        content: url(./sprite/Eliminar/eliminar3.png);
+    }
+    20%{
+        content: url(./sprite/Eliminar/eliminar3.png);
+    }
+    30%{
+        content: url(./sprite/Eliminar/eliminar4.png);
+    }
+    40%{
+        content: url(./sprite/Eliminar/eliminar5.png);
+    }
+    50%{
+        content: url(./sprite/Eliminar/eliminar6.png);
+    }
+    60%{
+        content: url(./sprite/Eliminar/eliminar7.png);
+    }
+    70%{
+        content: url(./sprite/Eliminar/eliminar7.png);
+    }
+    80%{
+        content: url(./sprite/Eliminar/eliminar8.png);
+    }
+    90%{
+        content: url(./sprite/Eliminar/eliminar8.png);
+    }
+    100%{
+        content: url(./sprite/Eliminar/eliminar9.png);
+    }
+}
+
+.playerRunning {
+    height: 230px;
+    content: url(./sprite/player.png);
+    transform: scaleX(-1);
+    position: absolute;
+    animation-name: caminar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    left: 650px;
+    top: 400px;
+}
+
+.playerSit {
+    height: 230px;
+    animation-name: sitting;
+    content: url(./sprite/sit/sentarse1.png);
+    transform: scaleX(-1);
+    position: absolute;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    left: 650px;
+    top: 400px;
+}
+
+
+.flor1{
+    content: url(./flores/flor1/flor1_1.png);
+    animation-name: A;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    width: 100px;
+    height: 100px;
+}
+
+.flor2{
+    content: url(./flores/flor2/flor2_1.png);
+    animation-name: B;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    width: 100px;
+    height: 100px;
+}
+
+.flor3{
+    content: url(./flores/flor3/flor3_1.png);
+    animation-name: C;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    width: 100px;
+    height: 100px;
+}
+
+.flor4{
+    content: url(./flores/flor4/flor4_1.png);
+    animation-name: D;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    width: 100px;
+    height: 100px;
+}
+
+.flor5{
+    content: url(./flores/flor5/flor5_1.png);
+    animation-name: E;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    width: 100px;
+    height: 100px;
+}
+
+.flor6{
+    content: url(./flores/flor6/flor6_1.png);
+    animation-name: F;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    width: 100px;
+    height: 100px;
+}
+.flor7{
+    content: url(./flores/flor7/flor7_1.png);
+    animation-name: G;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    height: 130px;
+}
+.flor8{
+    content: url(./flores/flor8/flor8_1.png);
+    animation-name: H;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    height: 130px;
+}
+
+.florA{
+    content: url(./flores/florA/florA1.png);
+    animation-name: I;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+    width: 140px;
+}
+.florB{
+    content: url(./flores/florB/florB1.png);
+    animation-name: J;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+    width: 140px;
+}
+
+@keyframes A{
+    0%{
+         content: url(./flores/flor1/flor1_1.png);
+    }
+    20%{
+        content: url(./flores/flor1/flor1_2.png);
+    }
+    40%{
+        content: url(./flores/flor1/flor1_3.png);
+    }
+    60%{
+        content: url(./flores/flor1/flor1_4.png);
+    }
+    80%{
+        content: url(./flores/flor1/flor1_5.png);
+    }
+    100%{
+        content: url(./flores/flor1/flor1_5.png);
+    }
+}
+
+@keyframes B{
+    0%{
+         content: url(./flores/flor2/flor2_1.png);
+    }
+    20%{
+        content: url(./flores/flor2/flor2_2.png);
+    }
+    40%{
+        content: url(./flores/flor2/flor2_3.png);
+    }
+    60%{
+        content: url(./flores/flor2/flor2_4.png);
+    }
+    80%{
+        content: url(./flores/flor2/flor2_5.png);
+    }
+    100%{
+        content: url(./flores/flor2/flor2_5.png);
+    }
+}
+
+@keyframes C{
+    0%{
+         content: url(./flores/flor3/flor3_1.png);
+    }
+    20%{
+        content: url(./flores/flor3/flor3_2.png);
+    }
+    40%{
+        content: url(./flores/flor3/flor3_3.png);
+    }
+    60%{
+        content: url(./flores/flor3/flor3_4.png);
+    }
+    80%{
+        content: url(./flores/flor3/flor3_5.png);
+    }
+    100%{
+        content: url(./flores/flor3/flor3_5.png);
+    }
+}
+
+@keyframes D{
+    0%{
+         content: url(./flores/flor4/flor4_1.png);
+    }
+    20%{
+        content: url(./flores/flor4/flor4_2.png);
+    }
+    40%{
+        content: url(./flores/flor4/flor4_3.png);
+    }
+    60%{
+        content: url(./flores/flor4/flor4_4.png);
+    }
+    80%{
+        content: url(./flores/flor4/flor4_5.png);
+    }
+    100%{
+        content: url(./flores/flor4/flor4_5.png);
+    }
+}
+
+@keyframes F{
+    0%{
+         content: url(./flores/flor5/flor5_1.png);
+    }
+    20%{
+        content: url(./flores/flor5/flor5_2.png);
+    }
+    40%{
+        content: url(./flores/flor5/flor5_3.png);
+    }
+    60%{
+        content: url(./flores/flor5/flor5_4.png);
+    }
+    80%{
+        content: url(./flores/flor5/flor5_5.png);
+    }
+    100%{
+        content: url(./flores/flor5/flor5_5.png);
+    }
+}
+
+@keyframes G{
+    0%{
+         content: url(./flores/flor6/flor6_1.png);
+    }
+    20%{
+        content: url(./flores/flor6/flor6_2.png);
+    }
+    40%{
+        content: url(./flores/flor6/flor6_3.png);
+    }
+    60%{
+        content: url(./flores/flor6/flor6_4.png);
+    }
+    80%{
+        content: url(./flores/flor6/flor6_5.png);
+    }
+    100%{
+        content: url(./flores/flor6/flor6_5.png);
+    }
+}
+
+@keyframes E{
+    0%{
+         content: url(./flores/flor7/flor7_2.png);
+    }
+    20%{
+        content: url(./flores/flor7/flor7_3.png);
+    }
+    40%{
+        content: url(./flores/flor7/flor7_4.png);
+    }
+    60%{
+        content: url(./flores/flor7/flor7_5.png);
+    }
+    80%{
+        content: url(./flores/flor7/flor7_6.png);
+    }
+    100%{
+        content: url(./flores/flor7/flor7_7.png);
+    }
+}
+
+@keyframes H{
+    0%{
+         content: url(./flores/flor8/flor8_2.png);
+    }
+    20%{
+        content: url(./flores/flor8/flor8_3.png);
+    }
+    40%{
+        content: url(./flores/flor8/flor8_4.png);
+    }
+    60%{
+        content: url(./flores/flor8/flor8_5.png);
+    }
+    80%{
+        content: url(./flores/flor8/flor8_6.png);
+    }
+    100%{
+        content: url(./flores/flor8/flor8_7.png);
+    }
+}
+
+@keyframes I{
+    0%{
+         content: url(./flores/florA/florA1.png);
+    }
+    5.5%{
+        content: url(./flores/florA/florA2.png);
+    }
+    11%{
+        content: url(./flores/florA/florA3.png);
+    }
+    16.5%{
+        content: url(./flores/florA/florA4.png);
+    }
+    22%{
+        content: url(./flores/florA/florA5.png);
+    }
+    27.5%{
+        content: url(./flores/florA/florA6.png);
+    }
+    33%{
+        content: url(./flores/florA/florA7.png);
+    }
+    38.5%{
+        content: url(./flores/florA/florA8.png);
+    }
+    44%{
+        content: url(./flores/florA/florA9.png);
+    }
+    49.5%{
+        content: url(./flores/florA/florA10.png);
+    }
+    55%{
+        content: url(./flores/florA/florA11.png);
+    }
+    60.5%{
+        content: url(./flores/florA/florA12.png);
+    }
+    66%{
+        content: url(./flores/florA/florA13.png);
+    }
+    71.5%{
+        content: url(./flores/florA/florA14.png);
+    }
+    77%{
+        content: url(./flores/florA/florA15.png);
+    }
+    82.5%{
+        content: url(./flores/florA/florA16.png);
+    }
+    88%{
+        content: url(./flores/florA/florA17.png);
+    }
+    93.5%{
+        content: url(./flores/florA/florA18.png);
+    }
+    100%{
+        content: url(./flores/florA/florA18.png);
+    }
+}
+
+@keyframes J{
+    0%{
+        content: url(./flores/florB/florB1.png);
+   }
+   5.5%{
+       content: url(./flores/florB/florB2.png);
+   }
+   11%{
+       content: url(./flores/florB/florB3.png);
+   }
+   16.5%{
+       content: url(./flores/florB/florB4.png);
+   }
+   22%{
+       content: url(./flores/florB/florB5.png);
+   }
+   27.5%{
+       content: url(./flores/florB/florB6.png);
+   }
+   33%{
+       content: url(./flores/florB/florB7.png);
+   }
+   38.5%{
+       content: url(./flores/florB/florB8.png);
+   }
+   44%{
+       content: url(./flores/florB/florB9.png);
+   }
+   49.5%{
+       content: url(./flores/florB/florB10.png);
+   }
+   55%{
+       content: url(./flores/florB/florB11.png);
+   }
+   60.5%{
+       content: url(./flores/florB/florB12.png);
+   }
+   66%{
+       content: url(./flores/florB/florB13.png);
+   }
+   71.5%{
+       content: url(./flores/florB/florB14.png);
+   }
+   77%{
+       content: url(./flores/florB/florB15.png);
+   }
+   82.5%{
+       content: url(./flores/florB/florB16.png);
+   }
+   88%{
+       content: url(./flores/florB/florB17.png);
+   }
+   93.5%{
+       content: url(./flores/florB/florB18.png);
+   }
+   100%{
+       content: url(./flores/florB/florB18.png);
+   }
+}
+
+@keyframes caminar {
+    0% {
+        content: url(./sprite/walk/playerRun1.png);
+    }
+
+    12.5% {
+        content: url(./sprite/walk/playerRun2.png);
+    }
+
+    25% {
+        content: url(./sprite/walk/playerRun3.png);
+    }
+
+    37.5% {
+        content: url(./sprite/walk/playerRun4.png);
+    }
+
+    50% {
+        content: url(./sprite/walk/playerRun5.png);
+    }
+
+    62.5% {
+        content: url(./sprite/walk/playerRun6.png);
+    }
+
+    75% {
+        content: url(./sprite/walk/playerRun7.png);
+    }
+
+    87.5% {
+        content: url(./sprite/walk/playerRun8.png);
+    }
+
+    100% {
+        content: url(./sprite/walk/playerRun1.png);
+    }
+}
+
+@keyframes idle {
+    from {
+        content: url(./sprite/player.png);
+    }
+
+    to {
+        content: url(./sprite/player.png);
+    }
+}
+
+
+@keyframes scene {
+    from {
+        content: url(./scene/owo1.png);
+    }
+
+    to {
+        content: url(./scene/owo2.png);
+    }
+}
+
+@keyframes sitting {
+    25% {
+        content: url(./sprite/sit/sentarse1.png);
+    }
+
+    25% {
+        content: url(./sprite/sit/sentarse1.png);
+    }
+
+    50% {
+        content: url(./sprite/sit/sentarse2.png);
+    }
+
+    75% {
+        content: url(./sprite/sit/sentarse3.png);
+    }
+
+    100% {
+        content: url(./sprite/sit/sentarse4.png);
+
+    }
+}
