@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/DreamLand_React/static/css/main.d16daebd.css",
+    "main.js": "/DreamLand_React/static/js/main.66778139.js",
+    "static/media/y2mate.com - lets do some farming  a cottagecore chillhop lofi mix  stardew valley.mp3": "/DreamLand_React/static/media/y2mate.com - lets do some farming  a cottagecore chillhop lofi mix  stardew valley.a8ef6c0ecae57d6a11c0.mp3",
+    "static/media/owo2.png": "/DreamLand_React/static/media/owo2.5e6b258c5991209a94d7.png",
+    "static/media/owo1.png": "/DreamLand_React/static/media/owo1.5dd170d9aea3da826f72.png",
+    "index.html": "/DreamLand_React/index.html",
+    "main.d16daebd.css.map": "/DreamLand_React/static/css/main.d16daebd.css.map",
+    "main.66778139.js.map": "/DreamLand_React/static/js/main.66778139.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d16daebd.css",
+    "static/js/main.66778139.js"
+  ]
+}
